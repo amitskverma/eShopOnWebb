@@ -3,6 +3,7 @@ name: eShopOnWeb Build and Test
 # Triggers
 on: [push, workflow_dispatch]
 
+
 # Environment variables
 env:
   RESOURCE_GROUP: rg-eshoponweb
