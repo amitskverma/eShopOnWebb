@@ -65,14 +65,14 @@ jobs:
     steps:
       # Download .NET app artifact
       - name: Download .NET app artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: dotnet-app
           path: dotnet-app
 
       # Download Bicep template artifact
       - name: Download Bicep template artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: bicep-template
           path: bicep-template
