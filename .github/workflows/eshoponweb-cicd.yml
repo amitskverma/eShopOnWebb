@@ -44,14 +44,14 @@ jobs:
 
       # Upload app artifact
       - name: Upload .NET app artifact for deployment
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: dotnet-app
           path: ${{ env.DOTNET_ROOT }}/app.zip
 
       # Upload Bicep template artifact
       - name: Upload Bicep template artifact for deployment
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: bicep-template
           path: ${{ env.TEMPLATE_FILE }}
